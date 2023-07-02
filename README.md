@@ -4,6 +4,7 @@
 http://grauonline.de/wordpress/?p=74
 
 変更箇所は下記リポジトリ内の変更と併せて、UnoR4ではSoftwareSerialの宣言やら初期化の記述がR3と微妙に異なるようなので、そこをR4用に修正しました。<br>
+R4ではobd.write(data);の前にdelay(5);を入れなくても問題なく通信できるようです。<br>
 https://github.com/accept/arduino_kw1281_softwareserial<br>
 
 同じくベンチECUでしかテストしていないので実車にて使用する際は自己責任でお願いします。<br>
